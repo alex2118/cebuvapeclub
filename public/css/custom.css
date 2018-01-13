@@ -1,0 +1,98 @@
+/* general styling */
+body {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* forums styling */
+.forums-list i {
+  font-size: 30px !important;
+  padding-top: 12px;
+  padding-left: 12px;
+}
+
+.forum-head > div {
+  padding: 0;
+}
+
+.forum {
+  margin-bottom: 30px;
+}
+
+/* subforums styling */
+.subforums-list {
+  padding: 0;
+}
+
+.subforums-list a {
+  color: #DC2829;
+}
+
+.subforums-list li:nth-child(odd) {
+  background: #2B2D30;
+}
+
+.subforums-list li:nth-child(even) {
+  background: #ddd;
+}
+
+.subforums-list li:nth-child(odd) i,
+.subforums-list li:nth-child(odd) p {
+  color: #ddd;
+}
+
+.subforums-list li:nth-child(even) i,
+.subforums-list li:nth-child(even) p {
+  color: #2B2D30;
+}
+
+/* needs vendor prefixing */
+.subforum-heading {
+  float: left;
+  width: calc(60% - (25.719px + 12px));
+  padding-top: 12px;
+  padding-left: 12px;
+  line-height: 100%;
+}
+
+/* please remove text-transform: capitalize when subforum title is set to ucfirst() in database */
+.subforum-title {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 7px;
+  display: block;
+}
+
+.subforum-description {
+  font-size: 14px;
+}
+
+/* latest post styling */
+.latest-post {
+  float: left;
+  width: 40%;
+  line-height: 100%;
+  padding-top: 10px;
+}
+
+.thread-post-title, .thread-post-author {
+  font-size: 14px;
+}
+
+
+#app > .container {
+  margin-bottom: 100px;
+}
+
+footer {
+  height: 40px;
+  background: #333;
+}
